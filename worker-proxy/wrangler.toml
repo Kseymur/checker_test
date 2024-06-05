@@ -1,0 +1,8 @@
+name = "worker-wandering-forest-35a0"
+main = "src/worker.js"
+compatibility_date = "2024-04-23"
+workers_dev = true
+
+[[services]]
+binding = "articleChecker" 
+service = "worker-article-checker" 
